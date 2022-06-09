@@ -1,0 +1,299 @@
+CRITICAL - 2022-06-08 02:29:18 --> Invalid file: menu.php
+#0 C:\xampp\htdocs\login-register-CodeIgniter4-master\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('menu.php')
+#1 C:\xampp\htdocs\login-register-CodeIgniter4-master\system\Common.php(1119): CodeIgniter\View\View->render('menu', Array, true)
+#2 C:\xampp\htdocs\login-register-CodeIgniter4-master\app\Controllers\Dashboard.php(15): view('menu')
+#3 C:\xampp\htdocs\login-register-CodeIgniter4-master\system\CodeIgniter.php(918): App\Controllers\Dashboard->index()
+#4 C:\xampp\htdocs\login-register-CodeIgniter4-master\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 C:\xampp\htdocs\login-register-CodeIgniter4-master\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\login-register-CodeIgniter4-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\login-register-CodeIgniter4-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-06-08 02:40:27 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\login-register-CodeIgniter4-master\system\CodeIgniter.php(918): App\Controllers\Berita->save()
+#1 C:\xampp\htdocs\login-register-CodeIgniter4-master\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+#2 C:\xampp\htdocs\login-register-CodeIgniter4-master\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\login-register-CodeIgniter4-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\login-register-CodeIgniter4-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-08 02:59:26 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\login-register-CodeIgniter4-master\system\CodeIgniter.php(918): App\Controllers\Berita->save()
+#1 C:\xampp\htdocs\login-register-CodeIgniter4-master\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+#2 C:\xampp\htdocs\login-register-CodeIgniter4-master\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\login-register-CodeIgniter4-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\login-register-CodeIgniter4-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-08 03:15:48 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\login-register-CodeIgniter4-master\system\CodeIgniter.php(918): App\Controllers\Berita->save()
+#1 C:\xampp\htdocs\login-register-CodeIgniter4-master\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+#2 C:\xampp\htdocs\login-register-CodeIgniter4-master\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\login-register-CodeIgniter4-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\login-register-CodeIgniter4-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-08 03:22:37 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\login-register-CodeIgniter4-master\system\CodeIgniter.php(918): App\Controllers\Berita->save()
+#1 C:\xampp\htdocs\login-register-CodeIgniter4-master\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+#2 C:\xampp\htdocs\login-register-CodeIgniter4-master\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\login-register-CodeIgniter4-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\login-register-CodeIgniter4-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-08 03:24:13 --> syntax error, unexpected '$dataBerita' (T_VARIABLE)
+#0 C:\xampp\htdocs\login-register-CodeIgniter4-master\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('berita/save')
+#1 C:\xampp\htdocs\login-register-CodeIgniter4-master\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('berita/save')
+#2 C:\xampp\htdocs\login-register-CodeIgniter4-master\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\login-register-CodeIgniter4-master\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\login-register-CodeIgniter4-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\login-register-CodeIgniter4-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-08 03:24:14 --> syntax error, unexpected '$dataBerita' (T_VARIABLE)
+#0 C:\xampp\htdocs\login-register-CodeIgniter4-master\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('berita/add_new')
+#1 C:\xampp\htdocs\login-register-CodeIgniter4-master\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('berita/add_new')
+#2 C:\xampp\htdocs\login-register-CodeIgniter4-master\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\login-register-CodeIgniter4-master\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\login-register-CodeIgniter4-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\login-register-CodeIgniter4-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-08 03:24:16 --> syntax error, unexpected '$dataBerita' (T_VARIABLE)
+#0 C:\xampp\htdocs\login-register-CodeIgniter4-master\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('berita')
+#1 C:\xampp\htdocs\login-register-CodeIgniter4-master\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('berita')
+#2 C:\xampp\htdocs\login-register-CodeIgniter4-master\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\login-register-CodeIgniter4-master\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\login-register-CodeIgniter4-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\login-register-CodeIgniter4-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-08 03:24:21 --> syntax error, unexpected '$dataBerita' (T_VARIABLE)
+#0 C:\xampp\htdocs\login-register-CodeIgniter4-master\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('berita')
+#1 C:\xampp\htdocs\login-register-CodeIgniter4-master\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('berita')
+#2 C:\xampp\htdocs\login-register-CodeIgniter4-master\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\login-register-CodeIgniter4-master\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\login-register-CodeIgniter4-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\login-register-CodeIgniter4-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-08 03:24:54 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\login-register-CodeIgniter4-master\system\CodeIgniter.php(918): App\Controllers\Berita->save()
+#1 C:\xampp\htdocs\login-register-CodeIgniter4-master\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+#2 C:\xampp\htdocs\login-register-CodeIgniter4-master\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\login-register-CodeIgniter4-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\login-register-CodeIgniter4-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-08 03:26:05 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\login-register-CodeIgniter4-master\system\CodeIgniter.php(918): App\Controllers\Berita->save()
+#1 C:\xampp\htdocs\login-register-CodeIgniter4-master\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+#2 C:\xampp\htdocs\login-register-CodeIgniter4-master\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\login-register-CodeIgniter4-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\login-register-CodeIgniter4-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-08 03:31:25 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\login-register-CodeIgniter4-master\system\CodeIgniter.php(918): App\Controllers\Berita->save()
+#1 C:\xampp\htdocs\login-register-CodeIgniter4-master\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+#2 C:\xampp\htdocs\login-register-CodeIgniter4-master\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\login-register-CodeIgniter4-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\login-register-CodeIgniter4-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-08 03:49:16 --> Class 'App\Controllers\BerkasModel' not found
+#0 C:\xampp\htdocs\login-register-CodeIgniter4-master\system\CodeIgniter.php(918): App\Controllers\Berkas->index()
+#1 C:\xampp\htdocs\login-register-CodeIgniter4-master\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berkas))
+#2 C:\xampp\htdocs\login-register-CodeIgniter4-master\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\login-register-CodeIgniter4-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\login-register-CodeIgniter4-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-08 03:49:58 --> Class 'App\Models\BerkasModel' not found
+#0 C:\xampp\htdocs\login-register-CodeIgniter4-master\system\CodeIgniter.php(918): App\Controllers\Berkas->index()
+#1 C:\xampp\htdocs\login-register-CodeIgniter4-master\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berkas))
+#2 C:\xampp\htdocs\login-register-CodeIgniter4-master\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\login-register-CodeIgniter4-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\login-register-CodeIgniter4-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-08 03:50:04 --> Class 'App\Models\BerkasModel' not found
+#0 C:\xampp\htdocs\login-register-CodeIgniter4-master\system\CodeIgniter.php(918): App\Controllers\Berkas->index()
+#1 C:\xampp\htdocs\login-register-CodeIgniter4-master\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berkas))
+#2 C:\xampp\htdocs\login-register-CodeIgniter4-master\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\login-register-CodeIgniter4-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\login-register-CodeIgniter4-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-08 03:51:40 --> Class 'App\Controllers\M_berkas' not found
+#0 C:\xampp\htdocs\login-register-CodeIgniter4-master\system\CodeIgniter.php(918): App\Controllers\Berkas->index()
+#1 C:\xampp\htdocs\login-register-CodeIgniter4-master\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berkas))
+#2 C:\xampp\htdocs\login-register-CodeIgniter4-master\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\login-register-CodeIgniter4-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\login-register-CodeIgniter4-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-08 03:51:43 --> Class 'App\Controllers\M_berkas' not found
+#0 C:\xampp\htdocs\login-register-CodeIgniter4-master\system\CodeIgniter.php(918): App\Controllers\Berkas->index()
+#1 C:\xampp\htdocs\login-register-CodeIgniter4-master\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berkas))
+#2 C:\xampp\htdocs\login-register-CodeIgniter4-master\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\login-register-CodeIgniter4-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\login-register-CodeIgniter4-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-08 03:51:43 --> Class 'App\Controllers\M_berkas' not found
+#0 C:\xampp\htdocs\login-register-CodeIgniter4-master\system\CodeIgniter.php(918): App\Controllers\Berkas->index()
+#1 C:\xampp\htdocs\login-register-CodeIgniter4-master\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berkas))
+#2 C:\xampp\htdocs\login-register-CodeIgniter4-master\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\login-register-CodeIgniter4-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\login-register-CodeIgniter4-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-08 03:51:44 --> Class 'App\Controllers\M_berkas' not found
+#0 C:\xampp\htdocs\login-register-CodeIgniter4-master\system\CodeIgniter.php(918): App\Controllers\Berkas->index()
+#1 C:\xampp\htdocs\login-register-CodeIgniter4-master\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berkas))
+#2 C:\xampp\htdocs\login-register-CodeIgniter4-master\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\login-register-CodeIgniter4-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\login-register-CodeIgniter4-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-08 10:03:02 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\sevima-rico\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\sevima-rico\system\Common.php(1119): CodeIgniter\View\View->render('header', Array, true)
+#2 C:\xampp\htdocs\sevima-rico\app\Controllers\Dashboard.php(15): view('header', Array)
+#3 C:\xampp\htdocs\sevima-rico\system\CodeIgniter.php(918): App\Controllers\Dashboard->index()
+#4 C:\xampp\htdocs\sevima-rico\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 C:\xampp\htdocs\sevima-rico\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sevima-rico\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\sevima-rico\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-06-08 10:06:20 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 C:\xampp\htdocs\sevima-rico\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('dashboard')
+#1 C:\xampp\htdocs\sevima-rico\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('dashboard')
+#2 C:\xampp\htdocs\sevima-rico\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\sevima-rico\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sevima-rico\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sevima-rico\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-08 10:39:27 --> Class 'App\Controllers\M_berkas' not found
+#0 C:\xampp\htdocs\sevima-rico\system\CodeIgniter.php(918): App\Controllers\Berkas->index()
+#1 C:\xampp\htdocs\sevima-rico\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berkas))
+#2 C:\xampp\htdocs\sevima-rico\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sevima-rico\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sevima-rico\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-08 10:39:50 --> Class 'App\Models\M_berkas' not found
+#0 C:\xampp\htdocs\sevima-rico\system\CodeIgniter.php(918): App\Controllers\Berkas->index()
+#1 C:\xampp\htdocs\sevima-rico\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berkas))
+#2 C:\xampp\htdocs\sevima-rico\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sevima-rico\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sevima-rico\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-08 10:58:57 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\sevima-rico\system\CodeIgniter.php(918): App\Controllers\Berita->save()
+#1 C:\xampp\htdocs\sevima-rico\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+#2 C:\xampp\htdocs\sevima-rico\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sevima-rico\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sevima-rico\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-08 11:43:50 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::get()
+#0 C:\xampp\htdocs\sevima-rico\app\Controllers\Dashboard.php(13): App\Models\M_berita->getBerita()
+#1 C:\xampp\htdocs\sevima-rico\system\CodeIgniter.php(918): App\Controllers\Dashboard->index()
+#2 C:\xampp\htdocs\sevima-rico\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\xampp\htdocs\sevima-rico\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sevima-rico\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sevima-rico\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-08 11:43:55 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::get()
+#0 C:\xampp\htdocs\sevima-rico\app\Controllers\Dashboard.php(13): App\Models\M_berita->getBerita()
+#1 C:\xampp\htdocs\sevima-rico\system\CodeIgniter.php(918): App\Controllers\Dashboard->index()
+#2 C:\xampp\htdocs\sevima-rico\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\xampp\htdocs\sevima-rico\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sevima-rico\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sevima-rico\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-08 11:47:36 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 C:\xampp\htdocs\sevima-rico\app\Controllers\Dashboard.php(13): App\Models\M_berita->getBerita()
+#1 C:\xampp\htdocs\sevima-rico\system\CodeIgniter.php(918): App\Controllers\Dashboard->index()
+#2 C:\xampp\htdocs\sevima-rico\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\xampp\htdocs\sevima-rico\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sevima-rico\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sevima-rico\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-08 11:49:30 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::get()
+#0 C:\xampp\htdocs\sevima-rico\app\Controllers\Dashboard.php(13): App\Models\M_berita->getBerita()
+#1 C:\xampp\htdocs\sevima-rico\system\CodeIgniter.php(918): App\Controllers\Dashboard->index()
+#2 C:\xampp\htdocs\sevima-rico\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\xampp\htdocs\sevima-rico\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sevima-rico\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sevima-rico\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-08 11:49:32 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::get()
+#0 C:\xampp\htdocs\sevima-rico\app\Controllers\Dashboard.php(13): App\Models\M_berita->getBerita()
+#1 C:\xampp\htdocs\sevima-rico\system\CodeIgniter.php(918): App\Controllers\Dashboard->index()
+#2 C:\xampp\htdocs\sevima-rico\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\xampp\htdocs\sevima-rico\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sevima-rico\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sevima-rico\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-08 13:10:12 --> Call to a member function table() on null
+#0 C:\xampp\htdocs\sevima-rico\app\Controllers\Comment.php(11): App\Models\M_comment->getComment()
+#1 C:\xampp\htdocs\sevima-rico\system\CodeIgniter.php(918): App\Controllers\Comment->getComment()
+#2 C:\xampp\htdocs\sevima-rico\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comment))
+#3 C:\xampp\htdocs\sevima-rico\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sevima-rico\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sevima-rico\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-08 13:11:59 --> Call to a member function table() on null
+#0 C:\xampp\htdocs\sevima-rico\app\Controllers\Comment.php(11): App\Models\M_comment->getComment()
+#1 C:\xampp\htdocs\sevima-rico\system\CodeIgniter.php(918): App\Controllers\Comment->getComment()
+#2 C:\xampp\htdocs\sevima-rico\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comment))
+#3 C:\xampp\htdocs\sevima-rico\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sevima-rico\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sevima-rico\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-08 13:12:25 --> Call to a member function table() on null
+#0 C:\xampp\htdocs\sevima-rico\app\Controllers\Comment.php(11): App\Models\M_comment->getComment()
+#1 C:\xampp\htdocs\sevima-rico\system\CodeIgniter.php(918): App\Controllers\Comment->getComment()
+#2 C:\xampp\htdocs\sevima-rico\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comment))
+#3 C:\xampp\htdocs\sevima-rico\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sevima-rico\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sevima-rico\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-08 13:12:42 --> Call to a member function table() on null
+#0 C:\xampp\htdocs\sevima-rico\app\Controllers\Comment.php(11): App\Models\M_comment->getComment()
+#1 C:\xampp\htdocs\sevima-rico\system\CodeIgniter.php(918): App\Controllers\Comment->getComment()
+#2 C:\xampp\htdocs\sevima-rico\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comment))
+#3 C:\xampp\htdocs\sevima-rico\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sevima-rico\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sevima-rico\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-08 13:13:46 --> Call to a member function table() on null
+#0 C:\xampp\htdocs\sevima-rico\app\Controllers\Comment.php(11): App\Models\M_comment->getComment()
+#1 C:\xampp\htdocs\sevima-rico\system\CodeIgniter.php(918): App\Controllers\Comment->getComment()
+#2 C:\xampp\htdocs\sevima-rico\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comment))
+#3 C:\xampp\htdocs\sevima-rico\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sevima-rico\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sevima-rico\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-08 13:15:05 --> Call to a member function table() on null
+#0 C:\xampp\htdocs\sevima-rico\app\Controllers\Comment.php(11): App\Models\M_comment->getComment()
+#1 C:\xampp\htdocs\sevima-rico\system\CodeIgniter.php(918): App\Controllers\Comment->getComment()
+#2 C:\xampp\htdocs\sevima-rico\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comment))
+#3 C:\xampp\htdocs\sevima-rico\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sevima-rico\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sevima-rico\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-08 13:15:48 --> Call to a member function table() on null
+#0 C:\xampp\htdocs\sevima-rico\app\Controllers\Comment.php(11): App\Models\M_comment->getComment()
+#1 C:\xampp\htdocs\sevima-rico\system\CodeIgniter.php(918): App\Controllers\Comment->getComment()
+#2 C:\xampp\htdocs\sevima-rico\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comment))
+#3 C:\xampp\htdocs\sevima-rico\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sevima-rico\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sevima-rico\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-08 13:18:27 --> Call to a member function table() on null
+#0 C:\xampp\htdocs\sevima-rico\app\Controllers\Comment.php(11): App\Models\M_comment->getComment()
+#1 C:\xampp\htdocs\sevima-rico\system\CodeIgniter.php(918): App\Controllers\Comment->getComment()
+#2 C:\xampp\htdocs\sevima-rico\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comment))
+#3 C:\xampp\htdocs\sevima-rico\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sevima-rico\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sevima-rico\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-08 13:19:34 --> Call to a member function table() on null
+#0 C:\xampp\htdocs\sevima-rico\app\Controllers\Comment.php(11): App\Models\M_comment->getComment()
+#1 C:\xampp\htdocs\sevima-rico\system\CodeIgniter.php(918): App\Controllers\Comment->getComment()
+#2 C:\xampp\htdocs\sevima-rico\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comment))
+#3 C:\xampp\htdocs\sevima-rico\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sevima-rico\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sevima-rico\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-08 13:21:07 --> Call to a member function table() on null
+#0 C:\xampp\htdocs\sevima-rico\app\Controllers\Comment.php(11): App\Models\M_comment->getComment()
+#1 C:\xampp\htdocs\sevima-rico\system\CodeIgniter.php(918): App\Controllers\Comment->getComment()
+#2 C:\xampp\htdocs\sevima-rico\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comment))
+#3 C:\xampp\htdocs\sevima-rico\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sevima-rico\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sevima-rico\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}

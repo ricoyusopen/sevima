@@ -1,0 +1,6 @@
+__ci_last_regenerate|i:1654676905;_ci_previous_url|s:36:"http://localhost:8080/berita/add_new";user_id|s:1:"4";user_name|s:4:"rico";user_email|s:12:"rr@gmail.com";logged_in|b:1;error|s:105:"	<div class="errors" role="alert">
+		<ul>
+					<li>description Tidak boleh kosong</li>
+				</ul>
+	</div>
+";__ci_vars|a:3:{s:5:"error";s:3:"old";s:13:"_ci_old_input";s:3:"old";s:21:"_ci_validation_errors";s:3:"old";}_ci_old_input|a:2:{s:3:"get";a:0:{}s:4:"post";a:3:{s:14:"csrf_test_name";s:32:"a3737cfe6461af104a71821cf74ec3e4";s:5:"title";s:5:"sdsFS";s:11:"description";s:0:"";}}_ci_validation_errors|s:63:"a:1:{s:11:"description";s:30:"description Tidak boleh kosong";}";

@@ -1,0 +1,6 @@
+__ci_last_regenerate|i:1654676122;_ci_previous_url|s:36:"http://localhost:8080/berita/add_new";error|s:104:"	<div class="errors" role="alert">
+		<ul>
+					<li>Harus Ada Image yang diupload</li>
+				</ul>
+	</div>
+";__ci_vars|a:3:{s:5:"error";s:3:"old";s:13:"_ci_old_input";s:3:"old";s:21:"_ci_validation_errors";s:3:"old";}_ci_old_input|a:2:{s:3:"get";a:0:{}s:4:"post";a:3:{s:14:"csrf_test_name";s:32:"617869e5b832a2c5edd6e3c133d6f00b";s:5:"title";s:3:"zvv";s:11:"description";s:7:"vDAVdav";}}_ci_validation_errors|s:55:"a:1:{s:5:"image";s:29:"Harus Ada Image yang diupload";}";

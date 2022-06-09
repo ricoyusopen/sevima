@@ -1,0 +1,11 @@
+CRITICAL - 2022-06-05 20:48:26 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\login-register-CodeIgniter4-master\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\login-register-CodeIgniter4-master\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\login-register-CodeIgniter4-master\system\Model.php(506): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\login-register-CodeIgniter4-master\app\Controllers\Login.php(20): CodeIgniter\Model->first()
+#4 C:\xampp\htdocs\login-register-CodeIgniter4-master\system\CodeIgniter.php(918): App\Controllers\Login->auth()
+#5 C:\xampp\htdocs\login-register-CodeIgniter4-master\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\login-register-CodeIgniter4-master\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\login-register-CodeIgniter4-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\login-register-CodeIgniter4-master\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
